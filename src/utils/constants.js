@@ -14,7 +14,7 @@ import { SiYoutubegaming } from "react-icons/si";
 
 export const categories = [
   { name: "New", icon: <AiFillHome />, type: "home" },
-  { name: "Trending", icon: <MdLocalFireDepartment />, type: "category" },
+  { name: "Worship", icon: <MdLocalFireDepartment />, type: "category" },
   { name: "Christian Music", icon: <IoLogoJavascript />, type: "category" },
   { name: "Prophet", icon: <FaReact />, type: "category" },
   { name: "Ministry", icon: <CgMusicNote />, type: "category" },
