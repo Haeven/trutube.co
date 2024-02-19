@@ -30,6 +30,7 @@ export const AppContext = (props) => {
       setTheme("light");
     }
   }, []);
+
   useEffect(() => {
     if (theme === "dark") {
       document.getElementById("root").classList.add("dark");

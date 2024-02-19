@@ -71,7 +71,7 @@ const Header = () => {
           </div>
         )}
         <Link to="/" className="flex h-5 items-center">
-          <img
+          {/* <img
             src={playTube}
             alt="PlayTube"
             className="h-full hidden md:block"
@@ -80,7 +80,7 @@ const Header = () => {
             src={playTubeMobile}
             alt="PlayTube"
             className="h-8 w-8 md:hidden rounded-full"
-          />
+          /> */}
         </Link>
       </div>
 
@@ -132,10 +132,10 @@ const Header = () => {
         </div>
         <div className="flex h-8 w-8 overflow-hidden rounded-full md:ml-4">
           <Link>
-            <img
+            {/* <img
               src="https://avatars.githubusercontent.com/u/108585532?v=4"
               alt="Codophile"
-            />
+            /> */}
           </Link>
         </div>
       </div>
